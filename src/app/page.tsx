@@ -9,9 +9,9 @@ import { Review } from "@/types/review.types";
 export const newArrivalsData: Product[] = [
   {
     id: 1,
-    title: "T-shirt with Tape Details",
+    title: "Regular Fitted Bow T-Shirt",
     srcUrl: "/images/pic1.png",
-    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
+    gallery: ["/images/pic1.png"],
     price: 120,
     discount: {
       amount: 0,
@@ -21,9 +21,9 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 2,
-    title: "Skinny Fit Jeans",
+    title: "Wide Leg Jean",
     srcUrl: "/images/pic2.png",
-    gallery: ["/images/pic2.png"],
+    gallery: ["/images/pic2.png", "/images/pic9.png", "/images/pic10.png"],
     price: 260,
     discount: {
       amount: 0,
@@ -33,7 +33,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 3,
-    title: "Chechered Shirt",
+    title: "Regular Hoodie Jacket",
     srcUrl: "/images/pic3.png",
     gallery: ["/images/pic3.png"],
     price: 180,
@@ -45,7 +45,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 4,
-    title: "Sleeve Striped T-shirt",
+    title: "Regular Shirt",
     srcUrl: "/images/pic4.png",
     gallery: ["/images/pic4.png", "/images/pic10.png", "/images/pic11.png"],
     price: 160,
@@ -60,7 +60,7 @@ export const newArrivalsData: Product[] = [
 export const topSellingData: Product[] = [
   {
     id: 5,
-    title: "Vertical Striped Shirt",
+    title: "Regular Fit Shirts",
     srcUrl: "/images/pic5.png",
     gallery: ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
     price: 232,
@@ -72,9 +72,9 @@ export const topSellingData: Product[] = [
   },
   {
     id: 6,
-    title: "Courage Graphic T-shirt",
+    title: "Regular Fit Blouse",
     srcUrl: "/images/pic6.png",
-    gallery: ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
+    gallery: ["/images/pic6.png"],
     price: 145,
     discount: {
       amount: 0,
@@ -84,7 +84,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 7,
-    title: "Loose Fit Bermuda Shorts",
+    title: "Wide Leg Denim Jeans",
     srcUrl: "/images/pic7.png",
     gallery: ["/images/pic7.png"],
     price: 80,
@@ -96,7 +96,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 8,
-    title: "Faded Skinny Jeans",
+    title: "Unisex Jackets",
     srcUrl: "/images/pic8.png",
     gallery: ["/images/pic8.png"],
     price: 210,
@@ -111,7 +111,7 @@ export const topSellingData: Product[] = [
 export const relatedProductData: Product[] = [
   {
     id: 12,
-    title: "Polo with Contrast Trims",
+    title: "Regular Trouser",
     srcUrl: "/images/pic12.png",
     gallery: ["/images/pic12.png", "/images/pic10.png", "/images/pic11.png"],
     price: 242,
@@ -123,7 +123,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 13,
-    title: "Gradient Graphic T-shirt",
+    title: "Twill Jacket",
     srcUrl: "/images/pic13.png",
     gallery: ["/images/pic13.png", "/images/pic10.png", "/images/pic11.png"],
     price: 145,
@@ -135,7 +135,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 14,
-    title: "Polo with Tipping Details",
+    title: "Knit Sweater",
     srcUrl: "/images/pic14.png",
     gallery: ["/images/pic14.png"],
     price: 180,
@@ -147,7 +147,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 15,
-    title: "Black Striped T-shirt",
+    title: "Wide Leg Cargo Trouser",
     srcUrl: "/images/pic15.png",
     gallery: ["/images/pic15.png"],
     price: 150,

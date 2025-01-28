@@ -1,13 +1,13 @@
 import { cn } from "@/lib/utils";
 import { integralCF } from "@/styles/fonts";
-import React from "react";
-import { PaymentBadge, SocialNetworks } from "./footer.types";
-import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import Link from "next/link";
-import LinksSection from "./LinksSection";
 import Image from "next/image";
-import NewsLetterSection from "./NewsLetterSection";
+import Link from "next/link";
+import React from "react";
+import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { PaymentBadge, SocialNetworks } from "./footer.types";
 import LayoutSpacing from "./LayoutSpacing";
+import LinksSection from "./LinksSection";
+import NewsLetterSection from "./NewsLetterSection";
 
 const socialsData: SocialNetworks[] = [
   {
@@ -74,7 +74,7 @@ const Footer = () => {
                   "text-[28px] lg:text-[32px] mb-6",
                 ])}
               >
-                SHOP.CO
+                LUMA
               </h1>
               <p className="text-black/60 text-sm mb-9">
                 We have clothes that suits your style and which you’re proud to
@@ -103,7 +103,7 @@ const Footer = () => {
           <hr className="h-[1px] border-t-black/10 mb-6" />
           <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mb-2">
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
-              Shop.co © Made by{" "}
+              LUMA © Made by{" "}
               <Link
                 href="https://github.com/mohammadoftadeh"
                 className="text-black font-medium"

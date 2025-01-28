@@ -1,18 +1,18 @@
+import InputGroup from "@/components/ui/input-group";
+import {
+    NavigationMenu,
+    NavigationMenuList,
+} from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { integralCF } from "@/styles/fonts";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { NavMenu } from "../navbar.types";
-import { MenuList } from "./MenuList";
-import {
-  NavigationMenu,
-  NavigationMenuList,
-} from "@/components/ui/navigation-menu";
-import { MenuItem } from "./MenuItem";
-import Image from "next/image";
-import InputGroup from "@/components/ui/input-group";
-import ResTopNavbar from "./ResTopNavbar";
 import CartBtn from "./CartBtn";
+import { MenuItem } from "./MenuItem";
+import { MenuList } from "./MenuList";
+import ResTopNavbar from "./ResTopNavbar";
 
 const data: NavMenu = [
   {
@@ -84,7 +84,7 @@ const TopNavbar = () => {
               "text-2xl lg:text-[32px] mb-2 mr-3 lg:mr-10",
             ])}
           >
-            SHOP.CO
+            LUMA
           </Link>
         </div>
         <NavigationMenu className="hidden md:flex mr-2 lg:mr-7">

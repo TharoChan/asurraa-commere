@@ -88,22 +88,22 @@ const footerLinksData: FooterLinks[] = [
     children: [
       {
         id: 41,
-        label: "Free eBooks",
+        label: "Size Guide",
         url: "#",
       },
       {
         id: 42,
-        label: "development tutorial",
+        label: "Shipping Information",
         url: "#",
       },
       {
         id: 43,
-        label: "How to - Blog",
+        label: "Return Policy",
         url: "#",
       },
       {
         id: 44,
-        label: "youtube playlist",
+        label: "Track Order",
         url: "#",
       },
     ],

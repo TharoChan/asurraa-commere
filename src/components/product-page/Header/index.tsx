@@ -1,12 +1,12 @@
-import React from "react";
-import PhotoSection from "./PhotoSection";
-import { Product } from "@/types/product.types";
-import { integralCF } from "@/styles/fonts";
-import { cn } from "@/lib/utils";
 import Rating from "@/components/ui/Rating";
-import ColorSelection from "./ColorSelection";
-import SizeSelection from "./SizeSelection";
+import { cn } from "@/lib/utils";
+import { integralCF } from "@/styles/fonts";
+import { Product } from "@/types/product.types";
+import React from "react";
 import AddToCardSection from "./AddToCardSection";
+import ColorSelection from "./ColorSelection";
+import PhotoSection from "./PhotoSection";
+import SizeSelection from "./SizeSelection";
 
 const Header = ({ data }: { data: Product }) => {
   return (

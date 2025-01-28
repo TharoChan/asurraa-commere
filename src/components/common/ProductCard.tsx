@@ -1,8 +1,8 @@
-import React from "react";
-import Rating from "../ui/Rating";
+import { Product } from "@/types/product.types";
 import Image from "next/image";
 import Link from "next/link";
-import { Product } from "@/types/product.types";
+import React from "react";
+import Rating from "../ui/Rating";
 
 type ProductCardProps = {
   data: Product;

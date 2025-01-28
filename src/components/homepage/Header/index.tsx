@@ -2,10 +2,10 @@ import AnimatedCounter from "@/components/ui/AnimatedCounter";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 import { integralCF } from "@/styles/fonts";
+import * as motion from "framer-motion/client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import * as motion from "framer-motion/client";
 
 const Header = () => {
   return (
@@ -19,10 +19,10 @@ const Header = () => {
             transition={{ duration: 0.6 }}
             className={cn([
               integralCF.className,
-              "text-4xl lg:text-[64px] lg:leading-[64px] mb-5 lg:mb-8",
+              "text-4xl lg:text-[64px] lg:leading-[64px] mb-5 lg:mb-8 text-[#CC071E]",
             ])}
           >
-            FIND CLOTHES THAT MATCHES YOUR STYLE
+            Lunar New Year Sale
           </motion.h2>
           <motion.p
             initial={{ y: "100px", opacity: 0 }}

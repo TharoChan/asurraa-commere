@@ -3,7 +3,7 @@ import { integralCF } from "@/styles/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { PaymentBadge, SocialNetworks } from "./footer.types";
 import LayoutSpacing from "./LayoutSpacing";
 import LinksSection from "./LinksSection";
@@ -25,11 +25,6 @@ const socialsData: SocialNetworks[] = [
     icon: <FaInstagram />,
     url: "https://instagram.com",
   },
-  {
-    id: 4,
-    icon: <FaGithub />,
-    url: "https://github.com",
-  },
 ];
 
 const paymentBadgesData: PaymentBadge[] = [
@@ -43,7 +38,7 @@ const paymentBadgesData: PaymentBadge[] = [
   },
   {
     id: 3,
-    srcUrl: "/icons/paypal.svg",
+    srcUrl: "/icons/KHQR.png",
   },
   {
     id: 4,
